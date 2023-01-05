@@ -1,0 +1,182 @@
+body{
+    font-family: 'Sarabun', sans-serif; 
+    font-size: 18px;
+    color: #333;
+}
+h1 {
+    font-size:2.5rem;
+}
+.p-left-20 {
+    padding-left: 20px;
+}
+.sidebar-main-title {
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 0;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+} 
+.main-sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom:0;
+    background-color:#333547;
+}
+.main-header-top {
+    background-color: #ececf1;
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 20px;
+}
+.main-header-top .user-profile {
+    font-size: 25px;
+}
+.main-header-top .user-name {
+    font-size: 14px;
+    margin: 0;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.sidebar-nav li a {
+    color: #b4bfcc;
+    font-size: 16px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    padding:10px 10px;
+} 
+.sidebar-nav li a:hover {
+    background-color: #383b4e;
+}
+.sidebar-nav li i {
+
+   width: 30px;   
+   object-fit: contain;
+   object-position: center;
+}
+.sidebar-title {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 11px;
+    padding: 20px 10px;
+    color: #b4bfcc;
+    margin:0;
+    padding-top: 0;
+}
+.sidebar-nav {
+    list-style-type: none;
+}
+.page-title {
+    font-size: 16px;
+    margin: 0;
+    line-height: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+    padding: 0 15px;
+}
+.breadcrumb {
+    background-color: transparent;
+    margin: 0;
+}
+.breadcrumb .breadcrumb-item a {
+    color: #333;
+    font-size: 15px;
+    text-decoration: none;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    font-weight: 600;
+}
+.btn-primary {
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    padding: 5px 15px;
+}
+.btn-primary i {
+    margin-right: 5px;
+    font-weight: 600;
+}
+.table thead th {
+    font-size: 14px;
+    letter-spacing: 1px;
+    min-width: 80px;
+}
+.table thead th.w-3 {
+    min-width: 300px;
+}
+.table thead th.w-2 {
+    min-width: 200px;
+}
+.table thead th.w-05 {
+    min-width: 50px;
+}
+.table-bordered td {
+    font-size: 14px;
+}
+.table-container {
+    overflow: auto;
+}
+.table-action-btn {
+    font-size:10px;
+    margin: 2px 0px;
+}
+.page-title-box .btn {
+    font-size: 13px;
+    font-weight: 400;
+    padding: 5px 15px;
+}
+.modal .modal-title {
+    font-size: 16px;
+    font-weight: 700;
+}
+.modal-body label,
+.modal-body input,
+.modal-body select {
+    font-size: 14px;
+}
+.modal-body input,
+.modal-body select {
+    min-width: 160px;
+    width: 100%;
+}
+.modal-body select {
+    padding: 2px 0;
+}
+.modal-body .row {
+    margin-bottom:10px;
+}
+.table-action-column {
+    display: flex;
+    flex-direction: column;
+}
+.innetable-section {
+    display: none;
+}
+.innetable-section input {
+    width: 100%;
+}
+.innetable-section .row {
+    margin-bottom: 20px;
+}
+#page-table tr.activeRow .only-display-active .innetable-section {
+    display: block;
+}
+#page-table_length label, #page-table_filter label, #page-table_info, #page-table_paginate ul li {
+    font-size: 14px;
+}
+#page-table_length select {
+    font-size: 13px;
+}
+#page-table tr.activeRow .user-date-display:not(.only-display-active),
+#page-table tr.activeRow .m-content,
+#page-table tr.activeRow .user-date-display:not(.only-display-active) {
+    display: none;
+}
+#page-table tr.activeRow {
+    background-color: rgba(0,0,0,.075);
+}
